@@ -1,0 +1,162 @@
+body {
+    color: rgb(89, 82, 169);
+    background-color: rgba(208, 192, 157, 0.51);
+    font-family: "helvetica";
+}
+
+.red-span {
+    color: red;
+}
+
+a:hover {
+    color: aqua;
+}
+
+.centered {
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+    padding: 10px 10px 10px 10px;
+    border: 3px dashed;
+    margin: 10px auto 10px auto;
+    width: 80%;
+}
+
+.flex__spacing1 {
+    flex: 1;
+}
+
+.flex__spacing2 {
+    display: flex;
+    flex: 3;
+    align-items: center;
+}
+
+#content p a {
+    color: mediumpurple;
+    font-family: cursive;
+}
+
+h1,
+h2 {
+
+    display: flex;
+
+    color: mediumpurple;
+    font-family: cursive;
+    font-size: 35px;
+}
+
+.nazareth-purple {
+    color: rgb(89, 82, 169);
+}
+
+.nazareth-font-big {
+    font-size: 38px;
+}
+
+.nazareth-font-heavy {
+    font-weight: 900;
+}
+
+li {
+
+    color: mediumpurple;
+}
+
+main {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flexboxmasterswitch {
+
+    display: flex;
+
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    
+
+    width: 1000px;
+    height: 1000px;
+
+}
+
+.duocolumn__container {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+}
+
+body header {
+    display: flex;
+    align-items: center;
+
+    font-size: 20px;
+}
+
+body header nav {
+    display: flex;
+}
+
+.linkspacing_1 {
+    flex: 5;
+}
+
+.linkspacing_2 {
+    flex: 2;
+}
+
+.linkspacing_3 {
+    flex: 1;
+}
+
+.linkspacing_4 {
+    flex:5;
+}
+
+body header nav {
+    flex: 1;
+}
+
+body ul,
+ol {
+
+    font-size: 20px;
+    justify-content: flex-start;
+
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+
+    width: 700px;
+    height: 700px;
+}
+
+@media screen and (max-width: 30rem) {
+
+    header,
+    main,
+    footer {
+        flex-direction: column;
+    }
+}
+
+form p {
+    display: flex;
+    margin-bottom: 1em;
+}
+
+form label {
+    flex-basis: 45%;
+}
+
+form select {
+    text-align: center;
+}
