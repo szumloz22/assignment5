@@ -1,15 +1,20 @@
 body {
-    color: rgb(89, 82, 169);
+    color: lavender;
     background-color: rgba(208, 192, 157, 0.51);
     font-family: "helvetica";
+    
+    background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),
+    url(img/background.jpg);
+    background-size: cover;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }
 
-.red-span {
-    color: red;
 }
 
 a:hover {
-    color: aqua;
+    color: lavender;
 }
 
 .centered {
@@ -17,12 +22,12 @@ a:hover {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-
+    background-color: rgba(100,10,900,.2);
     padding: 10px 10px 10px 10px;
-    border: 3px dashed;
     margin: 10px auto 10px auto;
     width: 80%;
 }
+
 
 .flex__spacing1 {
     flex: 1;
@@ -35,7 +40,7 @@ a:hover {
 }
 
 #content p a {
-    color: mediumpurple;
+    color: tan;
     font-family: cursive;
 }
 
@@ -44,13 +49,13 @@ h2 {
 
     display: flex;
 
-    color: mediumpurple;
+    color: tan;
     font-family: cursive;
     font-size: 35px;
 }
 
 .nazareth-purple {
-    color: rgb(89, 82, 169);
+    color:tan;
 }
 
 .nazareth-font-big {
@@ -63,7 +68,7 @@ h2 {
 
 li {
 
-    color: mediumpurple;
+    color:lavender;
 }
 
 main {
@@ -80,7 +85,7 @@ main {
     flex-wrap: wrap;
     justify-content:center;
     align-items: center;
-    flex-direction: column;
+    flex-direction:column;
     
 
     width: 1000px;
